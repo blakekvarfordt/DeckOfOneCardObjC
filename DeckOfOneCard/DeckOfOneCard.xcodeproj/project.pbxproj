@@ -13,6 +13,7 @@
 		6398519D230C80740015A46B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6398519B230C80740015A46B /* LaunchScreen.storyboard */; };
 		639851A0230C80740015A46B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398519F230C80740015A46B /* main.m */; };
 		639851AE230C8A190015A46B /* BTKCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 639851AD230C8A190015A46B /* BTKCard.m */; };
+		639851B1230CA4C90015A46B /* BTKCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639851B0230CA4C90015A46B /* BTKCardController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6398519F230C80740015A46B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		639851AC230C8A190015A46B /* BTKCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTKCard.h; sourceTree = "<group>"; };
 		639851AD230C8A190015A46B /* BTKCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTKCard.m; sourceTree = "<group>"; };
+		639851AF230CA4C90015A46B /* BTKCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTKCardController.h; sourceTree = "<group>"; };
+		639851B0230CA4C90015A46B /* BTKCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTKCardController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 		639851AB230C856C0015A46B /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				639851AF230CA4C90015A46B /* BTKCardController.h */,
+				639851B0230CA4C90015A46B /* BTKCardController.m */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				639851A0230C80740015A46B /* main.m in Sources */,
+				639851B1230CA4C90015A46B /* BTKCardController.m in Sources */,
 				639851AE230C8A190015A46B /* BTKCard.m in Sources */,
 				63985192230C80710015A46B /* AppDelegate.m in Sources */,
 			);
